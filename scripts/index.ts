@@ -11,7 +11,7 @@ module JetCopy {
         }
 
         function onDeviceReady() {
-            var ref = window.open('http://www.jetcopy.co.il', '_self', 'location=yes');
+            //var ref = window.open('http://www.jetcopy.co.il', '_self', 'location=yes');
             //ref.addEventListener('loadstart', function (event) { alert('start: ' + event.url); });
             //ref.addEventListener('loadstop', function (event) { alert('stop: ' + event.url); });
             //ref.addEventListener('loaderror', function (event) { alert('error: ' + event.message); });
