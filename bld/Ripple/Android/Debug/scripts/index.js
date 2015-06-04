@@ -13,18 +13,12 @@ var JetCopy;
         Application.initialize = initialize;
 
         function onDeviceReady() {
-            // Handle the Cordova pause and resume events
-            document.addEventListener('pause', onPause, false);
-            document.addEventListener('resume', onResume, false);
-            // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        }
-
-        function onPause() {
-            // TODO: This application has been suspended. Save application state here.
-        }
-
-        function onResume() {
-            // TODO: This application has been reactivated. Restore application state here.
+            var ref = window.open('http://www.jetcopy.co.il', '_self', 'location=yes');
+            //ref.addEventListener('loadstart', function (event) { alert('start: ' + event.url); });
+            //ref.addEventListener('loadstop', function (event) { alert('stop: ' + event.url); });
+            //ref.addEventListener('loaderror', function (event) { alert('error: ' + event.message); });
+            //ref.addEventListener('exit', onBackKeyDown, false);
+            //ref.addEventListener("backbutton", onBackKeyDown, false);
         }
     })(JetCopy.Application || (JetCopy.Application = {}));
     var Application = JetCopy.Application;
