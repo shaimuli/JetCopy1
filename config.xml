@@ -14,8 +14,28 @@
   <preference name="windows-target-version" value="8.0" />
   <preference name="windows-phone-target-version" value="8.1" />
   <preference name="android-minSdkVersion" value="7" />
+
+  <preference name="fullscreen" value="false" />
+  <preference name="webviewbounce" value="false" />
+  <preference name="useBrowserHistory" value="true" />
+  <preference name="exit-on-suspend" value="false" />
+  <preference name="permissions" value="none" />
+  <preference name="target-device" value="universal" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="auto-hide-splash-screen" value="true" />
+  <preference name="disable-cursor" value="false" />
+  <preference name="android-minSdkVersion" value="10" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="orientation" value="portrait"/>
+  
   <vs:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
   <vs:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
   <vs:plugin name="org.apache.cordova.statusbar" version="0.1.8" />
+  
   <vs:platformSpecificValues />
+ 
+  
 </widget>
